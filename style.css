@@ -38,7 +38,7 @@ header img{
     color: #ffffff;
 }
 .btn{
-   font-size:50px;
+   font-size:70px;
    padding: 15px 40px;
    border: none;
    outline: none;
@@ -121,7 +121,7 @@ header img{
     height: 130%;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -60px;
+    bottom: -80px;
 }
 .grid figure img{
     width: 100%;
@@ -132,7 +132,7 @@ header img{
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(var(--row), 100px);
     margin-top: 50px;
-    gap: 70px;
+    gap: 80px;
 }
 .grid-1 figure:nth-child(1){
     grid-column: 2 / 6;
@@ -219,7 +219,7 @@ footer .content{
     color: rgb(233, 224, 224);
 }
 .icon i:hover{
-    color: #5ecc58;
+    color: #c9da46;
 }
 .up_arrow{
     background-color: rgb(185, 112, 22);
