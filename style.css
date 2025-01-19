@@ -269,59 +269,102 @@ html{
     grid-column: 5 / 7;
 }
 
-@media screen and (max-width: 1023px){
-    header img{
-        height: 2em;
-    }
-    .banner .content h1{
-        font-size: 12em;
-    }
-    .banner .content .right{
-        transform: none;
-    }
-    .grid-2 div:nth-child(1){
-        grid-row: 2;
-    }
-    .grid-2 div:nth-child(3){
-        grid-row: 6;
-    }
-    .grid-2 div:nth-child(4){
-        grid-row: 5;
-    }
-    .grid-3{
-        font-size: 5em;
-        line-height: 1em;
-    }
-}
-@media screen and (max-width: 1023px){
-    header img{
+@media screen and (max-width: 1023px) {
+    header img {
         height: unset;
         width: 100%;
     }
-    .banner .content h1{
+    .banner .content h1 {
         font-size: 7em;
     }
-    .banner .content{
+    .banner .content {
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .banner{
+    .banner {
         overflow: hidden;
     }
-    .grid-1 h2:nth-child(3){
+    .grid-1 h2:nth-child(3) {
         font-size: 3em;
     }
-    .grid{
+    .grid {
         display: block;
     }
-    .grid-3{
+    .grid-3 {
         font-size: 4em;
         display: block;
         margin-bottom: 100px;
+        line-height: 1em;
+    }
+    .grid-2 div:nth-child(1) {
+        grid-row: 2;
+    }
+    .grid-2 div:nth-child(3) {
+        grid-row: 6;
+    }
+    .grid-2 div:nth-child(4) {
+        grid-row: 5;
     }
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    header img {
+        height: 30px; /* Adjust as needed */
+    }
+
+    .banner .content h1 {
+        font-size: 5em;
+    }
+
+    .banner .content {
+        text-align: center;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center;
+    }
+
+    .grid {
+        gap: 20px; /* Reduce spacing */
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    .btn {
+        font-size: 50px;
+        padding: 10px 30px;
+    }
+
+    .banner .image {
+        height: 400px; /* Adjust banner image height */
+    }
+
+    .grid-1 h2:nth-child(3) {
+        font-size: 2em;
+    }
+
+    footer .content {
+        padding: 50px 20px;
+    }
+
+    .up_arrow {
+        width: 45px;
+        height: 45px;
+        bottom: 20px;
+        right: 10px;
+    }
+
+    .up_arrow i {
+        font-size: 25px;
+    }
+}
+
+    
+    
+      
 
 .autoRotate{
     animation: autoRotateAnimation;
