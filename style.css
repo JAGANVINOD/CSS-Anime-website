@@ -250,7 +250,7 @@ html{
 }
 .grid-5{
     --row: 5;
-    font-size:1.4em;
+    font-size: 1.9em;
 }
 .grid-5 div:nth-child(1){
     grid-row: 1;
@@ -315,7 +315,7 @@ html{
     }
 
     header img {
-        height: 30px; /* Adjust as needed */
+        height: 30px; 
     }
 
     .banner .content h1 {
@@ -324,13 +324,13 @@ html{
 
     .banner .content {
         text-align: center;
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: column; 
         justify-content: center;
     }
 
     .grid {
-        gap: 20px; /* Reduce spacing */
-        grid-template-columns: 1fr; /* Single column layout */
+        gap: 20px;
+        grid-template-columns: 1fr; 
     }
 
     .btn {
@@ -339,7 +339,7 @@ html{
     }
 
     .banner .image {
-        height: 400px; /* Adjust banner image height */
+        height: 400px; 
     }
 
     .grid-1 h2:nth-child(3) {
