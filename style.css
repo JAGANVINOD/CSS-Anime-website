@@ -60,7 +60,7 @@ header img{
     background-color: #000000;
     left: 0;
     top: 0;
-    border-radius: 10px;
+    border-radius: 12px;
 
 }
 .btn::before{
@@ -70,11 +70,11 @@ header img{
     position: absolute;
     top: -2px;
     left: -2px;
-    background-size: 700%;
+    background-size: 600%;
     z-index: -1;
     width: calc(100% + 4px);
     height: calc(100% + 4px);
-    filter: blur(15px);
+    filter: blur(20px);
     animation: glowing 20s linear infinite;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
