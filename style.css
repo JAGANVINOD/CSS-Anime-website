@@ -175,6 +175,7 @@ header img{
 .grid-3{
     --row: 6;
     font-size: 10em;
+    margin-top: 200px;
 }
 .grid-3 div{
     grid-column: 2/ 6;
@@ -451,4 +452,73 @@ html{
     100% {
         transform: rotate(1turn) scale(2);
     }
+}
+
+
+.container {
+    height: 400px;
+    width: 650px;
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 30px rgba(225, 198, 198, 0.6);
+    animation: bg-animation 8s linear infinite;
+    position: relative;
+    top: 250px;
+}
+.container2 {
+    height: 400px;
+    width: 650px;
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 30px rgba(225, 198, 198, 0.6);
+    animation: bg-animation1 8s linear infinite;
+    position: relative;
+    top: -10px;
+}
+#txt123{
+position: relative;
+bottom: 200px;
+
+}
+
+@keyframes bg-animation {
+    0% {
+        background-image: url(./images/image2.png);
+    }
+    20% {
+        background-image: url(./images/image3.png);
+    }
+    40% {
+        background-image: url(./images/image7.jpg);
+    }
+    60% {
+        background-image: url(./images/image8.jpg);
+    }
+    80% {
+        background-image: url(./images/image9.jpg);
+    }
+    100% {
+        background-image: url(./images/image2.png);
+    }
+    
+}
+
+@keyframes bg-animation1 {
+    0% {
+        background-image: url(./images2/efwef\ \(1\).jpg);
+    }
+    20% {
+        background-image: url(./images2/efwef\ \(1\)2.png);
+    }
+    40% {
+        background-image: url(./images2/efwef\ \(2\).png);
+    }
+    60% {
+        background-image: url(./images2/efwef\ \(2\)4.jpg);
+    }
+    80% {
+        background-image: url(./images2/efwef\ \(2\)4.jpg);
+    }
+    100% {
+        background-image: url(./images2/efwef\ \(3\)4.jpg);
+    }
+    
 }
