@@ -270,57 +270,19 @@ html{
     grid-column: 5 / 7;
 }
 
-@media screen and (max-width: 1023px) {
-    header img {
-        height: unset;
-        width: 100%;
-    }
-    .banner .content h1 {
-        font-size: 7em;
-    }
-    .banner .content {
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .banner {
-        overflow: hidden;
-    }
-    .grid-1 h2:nth-child(3) {
-        font-size: 3em;
-    }
-    .grid {
-        display: block;
-    }
-    .grid-3 {
-        font-size: 4em;
-        display: block;
-        margin-bottom: 100px;
-        line-height: 1em;
-    }
-    .grid-2 div:nth-child(1) {
-        grid-row: 2;
-    }
-    .grid-2 div:nth-child(3) {
-        grid-row: 6;
-    }
-    .grid-2 div:nth-child(4) {
-        grid-row: 5;
-    }
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
     body {
         font-size: 12px;
     }
 
     header img {
         height: 30px; 
+        width: auto;
     }
 
     .banner .content h1 {
-        font-size: 5em;
+        font-size: 6em;
     }
 
     .banner .content {
@@ -329,37 +291,58 @@ html{
         justify-content: center;
     }
 
+    .banner {
+        overflow: hidden;
+    }
+
     .grid {
-        gap: 20px;
-        grid-template-columns: 1fr; 
-    }
-
-    .btn {
-        font-size: 50px;
-        padding: 10px 30px;
-    }
-
-    .banner .image {
-        height: 400px; 
+        gap: 30px;
+        grid-template-columns: repeat(2, 1fr); 
     }
 
     .grid-1 h2:nth-child(3) {
-        font-size: 2em;
+        font-size: 2.5em;
+    }
+
+    .grid-3 {
+        font-size: 5em;
+        margin-bottom: 150px;
+        line-height: 1.2em;
+    }
+
+    .btn {
+        font-size: 60px;
+        padding: 12px 35px;
+    }
+
+    .banner .image {
+        height: 500px; 
     }
 
     footer .content {
-        padding: 50px 20px;
+        padding: 70px 20px;
     }
 
     .up_arrow {
-        width: 45px;
-        height: 45px;
-        bottom: 20px;
+        width: 50px;
+        height: 50px;
+        bottom: 25px;
         right: 10px;
     }
 
     .up_arrow i {
-        font-size: 25px;
+        font-size: 28px;
+    }
+
+    .container,
+    .container2 {
+        width: 100%;
+        height: 300px;
+        top: 200px;
+    }
+
+    #txt123 {
+        bottom: 150px;
     }
 }
 
