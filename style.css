@@ -418,7 +418,7 @@ html{
     inset: 0;
     margin: auto;
     filter: blur(140px);
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .blob-inner-container {
@@ -459,7 +459,7 @@ html{
     height: 400px;
     width: 650px;
     background-size: 100% 100%;
-    box-shadow: 0px 0px 30px rgba(225, 198, 198, 0.6);
+    box-shadow: 0px 0px 30px rgba(203, 189, 189, 0.6);
     animation: bg-animation 8s linear infinite;
     position: relative;
     top: 250px;
@@ -468,7 +468,7 @@ html{
     height: 400px;
     width: 650px;
     background-size: 100% 100%;
-    box-shadow: 0px 0px 30px rgba(225, 198, 198, 0.6);
+    box-shadow: 0px 0px 30px rgba(203, 189, 189, 0.6);
     animation: bg-animation1 8s linear infinite;
     position: relative;
     top: -10px;
@@ -503,22 +503,22 @@ bottom: 200px;
 
 @keyframes bg-animation1 {
     0% {
-        background-image: url(./images2/efwef\ \(1\).jpg);
-    }
-    20% {
-        background-image: url(./images2/efwef\ \(1\)2.png);
-    }
-    40% {
         background-image: url(./images2/efwef\ \(2\).png);
     }
+    20% {
+        background-image: url(./images2/efwef\ \(3\)4.jpg);
+    }
+    40% {
+        background-image: url(./images2/sdhw\ 1.jpg);
+    }
     60% {
-        background-image: url(./images2/efwef\ \(2\)4.jpg);
+        background-image: url(./images2/sdhw\ 2.jpg);
     }
     80% {
-        background-image: url(./images2/efwef\ \(2\)4.jpg);
+        background-image: url(./images2/sdhw\ 3.jpg);
     }
     100% {
-        background-image: url(./images2/efwef\ \(3\)4.jpg);
+        background-image: url(./images2/sdhw\ 4.jpg);
     }
     
 }
